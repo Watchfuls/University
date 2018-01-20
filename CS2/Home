@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- Bootstrap containers-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Dark Maze [Home]</title>
+
+		<!-- css import -->
+		<link href="style.css" type="text/css" rel="stylesheet" />
+
+		<!-- javascript import -->
+		<script src="java.js"></script>
+
+		<html manifest="cashe.appcache"></html>
+
+	</head>
+	<body>
+		<div class="container-fluid">
+		<div class="Main1">
+		<link href="http://www.yoyogames.com/feed.rss" rel="alternate" type="application/rss+xml" title="What's New on About.com Web Design / HTML" />
+
+			<br>
+			<form methd="post">
+				<div id = nameform>
+  				<label>Enter your name :
+    				<input type="text" id="name" />
+						<input type="submit" onclick="namememorysession()" />
+  				</label>
+				</div>
+							<div id="resultsession"></div>
+			</form>
+
+		<img src="title.jpg" alt"LTitle" style="width:100%;margin-bottom:50px;z-index:0;"/>
+			<nav>
+				<div class="navbox">
+					<h4>
+					<a href="Characters">Characters</a> |
+					<a href="Story">Story</a> |
+					<a href="Creation">Creation</a> |
+					<a href="Home">Home</a> |
+					<a href="Gameplay">Gameplay</a>
+					</h4>
+				</div>
+			</nav>
+		</div>
+			<div class="Main2">
+				<p>
+					<h3>Latest update (Version 1.1)</h3>
+					<h4>In the latest update we have progressed the charactewr development, now this is becoming a multi-playable-character version, partially for the sake of Story
+					development, but also for the sake of diversifying our player base. We also inplimented multiple rooms, slowly creating the world that will expand natrually around you inbetween the unique sequecned events, indepentant to all other playthroughs of the game.</h4>
+				</p>
+				<br>
+				<p>
+					<h3>Here is a video showing of the initial gameplay we have created, finally finishing off the movement system.</h3>
+					<video id="gameplay" width="80%">
+						<source src="run.webm" type='video/webm; codecs="vp8, vorbis"' />
+						Your browser does not support the video tag.
+					</video>
+					<div id="controls">
+    				<a id="btnPlay" onclick = "playpause(this,'gameplay')">Play/Pause</a>
+					</div>
+					<br>
+					<a href="run.avi">Gameplay Download</a>
+				</p>
+				<br>
+				<p>
+					<h3>Latest update (Version 1.1)</h3>
+					<h4>We are starting again, after learning from our pervious mistakes a brand new cleaner and more efficiant system is being developed for a lot of the mechanics already implimented. This
+					will mean a less buggy and quickewr development process, while still allowing us to put in the diverse gameplay events this intense game desires.</h4>
+				</p>
+				<br>
+				<p>
+					<h3>Latest update (Version 1.0)</h3>
+					<h4>The Battle Of Stepehen.
+					I really cannot wait to share with you the pure comedy genius in some of these moments, sometimes you strike a quote form on of the character and you know however rediculously stupid it's going to sound in the game it makes it that more special.
+					Many thanks to our team memeber chris who helped with the production of the latest battle scene.</h4>
+				</p>
+				<br>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- Bootstrap containers-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Dark Maze [Home]</title>
+
+		<!-- css import -->
+		<link href="style.css" type="text/css" rel="stylesheet" />
+
+		<!-- javascript import -->
+		<script src="java.js"></script>
+
+		<html manifest="cashe.appcache"></html>
+
+	</head>
+	<body>
+		<div class="container-fluid">
+		<div class="Main1">
+		<link href="http://www.yoyogames.com/feed.rss" rel="alternate" type="application/rss+xml" title="What's New on About.com Web Design / HTML" />
+
+			<br>
+			<form methd="post">
+				<div id = nameform>
+  				<label>Enter your name :
+    				<input type="text" id="name" />
+						<input type="submit" onclick="namememorysession()" />
+  				</label>
+				</div>
+							<div id="resultsession"></div>
+			</form>
+		<img src="title.jpg" alt"LTitle" style="width:100%;margin-bottom:50px;z-index:0;"/>
+			<nav>
+				<h4>
+				<div class="navbox">
+				<a href="Characters">Characters</a> |
+				<a href="Story">Story</a> |
+				<a href="Creation">Creation</a> |
+				<a href="Home">Home</a> |
+				<a href="Gameplay">Gameplay</a>
+				</h4>
+				</div>
+			</nav>
+		</div>
+			<div class="Main2">
+						<h1>Gameplay</h1>
+				<p>
+				<h4>
+				This game is initiayll a 2D sidescroller, this means lots of running and jumping, but we don't want to go
+				back to the old days of it being one big jumping puzzle, we'll have a variety of intelectually challenging puzzles, battles,
+				and most importantly thirlling dialogue along the way.
+				<br>
+				<br>
+				The battles will be either peacefully passed by wit or general interations with the world around you. Or by sword to ... weapon combat.
+				The jumping slashing dashing element of the game will be very much about the fluidity, with each battle needing to be incredibly unique in it's
+				dynamics.
+				For example in the battle verses the princess we will include a ground attack whick is much like a mexican wave along the floor, that will be dodges by jumping over it,
+				but another battle could be an escape from a passage filling with water due to you falling for their trap. This game isn't going to be easy, we want it to challenge the
+				status quo, becoming increasingly meta as 'you' learns who they are.
+				<br><br>
+				Battles:
+<table>
+  <tr>
+    <th>Characters</th>
+    <th>Weapon</th>
+    <th>Attack</th>
+    <th>Type</th>
+    <tr>
+      <th>Princess</th>
+      <td>Hammer</td>
+      <td>Slam</td>
+      <td>Earth</td>
+    </tr>
+		<tr>
+			<th>Guard</th>
+			<td>Flag</td>
+			<td>Slash</td>
+			<td>Air</td>
+		</tr>
+    <tr>
+      <th>Steven</th>
+      <td>Shield</td>
+      <td>Nothing</td>
+      <td>Metal</td>
+    </tr>
+    <tr>
+      <th>King</th>
+      <td>?</td>
+      <td>?</td>
+      <td>Soul</td>
+    </tr>
+</table>
+
+
+				</h4>
+				</p>
+			</div>
+	</body>
+</html>

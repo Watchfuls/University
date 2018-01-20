@@ -1,0 +1,118 @@
+
+				h1 {
+				  font-size: 50pt;
+				  font-style: normal;
+				  font-weight: normal;
+				  padding-top: 30px;
+				  padding-bottom: 20px;
+    		  letter-spacing: 4px;
+				  font-family: "DinPro Medium";
+				  }
+				h2 {
+					font-family: "DinPro Light";
+					text-decoration: underline;
+					}
+				h3 {
+					font-family: "DinPro light";
+					font-style: italic;
+				  }
+				h4 {
+					font-family: "DinPro Light";
+
+					}
+
+				body {
+					background-color: black;
+					color: white;
+					text-align: center;
+				  }
+
+				.Main1{
+				  }
+
+				nav{
+					visibility: hidden;
+					z-index: 10;
+					opacity:0;
+					margin-left: 50%;
+					position:absolute;
+					margin-top: -150px;
+					-moz-outline-style:none;
+					-webkit-transition: all 0.5s linear;
+					-moz-transition: all 0.5s linear;
+					-o-transition: all 0.5s linear;
+				 }
+			  nav:hover {
+						visibility: visible;
+				  background-color: black;
+				  -moz-outline-style:none;
+					-webkit-transition: all 0.5s linear;
+					-moz-transition: all 0.5s linear;
+					-o-transition: all 0.5s linear;
+				}
+				.Main1:hover nav {
+					visibility: visible;
+				  margin-top: -50px;
+										opacity:1;
+			 	  -moz-outline-style:none;
+			 	  -webkit-transition: all 0.5s linear;
+			 	  -moz-transition: all 0.5s linear;
+			 	  -o-transition: all 0.5s linear;
+				  }
+				.navbox {
+				  width:350px;
+				  margin-left: -150px;
+				  border-radius: 20px;
+				  border-style: solid;
+				  }
+
+				.Main2 {
+				  }
+
+				a {
+    	 		text-decoration:none;
+   				color: white;
+			    -webkit-transition: all 0.5s linear;
+    			-moz-transition: all 0.5s linear;
+    			-o-transition: all 0.5s linear;
+					}
+
+				a:hover {
+				  color: grey;
+				  text-decoration: underline;
+				  -webkit-transition: all 0.5s linear;
+				  -moz-transition: all 0.5s linear;
+				  -o-transition: all 0.5s linear;
+				  }
+					div#controls {
+						background: inherit;
+					}
+					input {
+						background: inherit;
+					}
+					.characterbox{
+						width: 60%;
+						border: 5px;
+						border-style: dashed;
+						border-color: grey;
+						margin-bottom: 20px;
+					}
+					.characterbox2{
+						width: 60%;
+						margin-left: 39%;
+						border: 5px;
+						border-style: dashed;
+						border-color: grey;
+						margin-bottom: 20px;
+					}
+					
+									table{
+										border: 3px solid white;
+										border-spacing: 1px;
+										text-align: center;
+										margin: auto;
+									  }
+									td,th, tr{
+										border: 1px solid grey;
+										border-spacing: 1px;
+									  }

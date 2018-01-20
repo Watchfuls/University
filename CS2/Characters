@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- Bootstrap containers-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Dark Maze [Home]</title>
+
+		<!-- css import -->
+		<link href="style.css" type="text/css" rel="stylesheet" />
+
+		<!-- javascript import -->
+		<script src="java.js"></script>
+
+		<html manifest="cashe.appcache"></html>
+
+	</head>
+	<body>
+		<div class="container-fluid">
+		<div class="Main1">
+		<link href="http://www.yoyogames.com/feed.rss" rel="alternate" type="application/rss+xml" title="What's New on About.com Web Design / HTML" />
+
+			<br>
+			<form methd="post">
+				<div id = nameform>
+  				<label>Enter your name :
+    				<input type="text" id="name" />
+						<input type="submit" onclick="namememorysession()" />
+  				</label>
+				</div>
+							<div id="resultsession"></div>
+			</form>
+		<img src="title.jpg" alt"LTitle" style="width:100%;margin-bottom:50px;z-index:0;"/>
+			<nav>
+				<div class="navbox">
+					<h4>
+					<a href="Characters">Characters</a> |
+					<a href="Story">Story</a> |
+					<a href="Creation">Creation</a> |
+					<a href="Home">Home</a> |
+					<a href="Gameplay">Gameplay</a>
+					</h4>
+				</div>
+			</nav>
+		</div>
+			<div class="Main2">
+			<h1>CHARACTERS</h1>
+				<p>
+					<div class="characterbox">
+					<h2>You</h2>
+					<img src="You.png" alt"You"/>
+					<br>
+					<blockquote>
+					<h3><q>A young child lost in the sea, in the heart of darkness.</q></h3>
+					</blockquote>
+					<br>
+					<h4>Once living in a simple seaside town, growing up and learning through the trials of life, and a simple one too.
+					</h4>
+					</div>
+
+					<div class="characterbox2">
+					<h2>Steven</h2>
+					<img src="Steven.png" alt"Steven"/>
+					<br>
+					<blockquote>
+					<h3><q>The gentle giant, a first friend.</q></h3>
+					</blockquote>
+					<br>
+					<h4>Once living in a simple seaside town, growing up and learning through the trials of life, and a simple one too.
+					</h4>
+					</div>
+
+					<div class="characterbox">
+					<h2>Princess</h2>
+					<img src="Princess.png" alt"Princess"/>
+					<br>
+					<blockquote>
+					<h3><q>The daughter of the king, hiding as an average body.</q></h3>
+					</blockquote>
+					<br>
+					<h4>A potent for defending the kingdom in the name of her family love and justice for their citizens, not knowing that
+					the true intentions of the king are devious, she slams down her signature weapon of a ruthless shining hammer.
+					As a guard she stands watch over the average people of the city, holding her family crest high on a flag.
+					</h4>
+					</div>
+
+				</p>
+			</div>
+	</body>
+</html>
