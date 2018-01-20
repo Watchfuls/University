@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+ {% block content %}
+  {% with messages = get_flashed_messages() %}
+   {% if messages %}
+    <ul>
+     {% for message in messages %}
+       <li>{{ message }} </li>
+     {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+<h1>To-Do List</h1>
+<form action="" method="post" name="todo">
+    {{ todo.hidden_tag() }}
+    <p>
+       Task   <br>    {{ todo.taskstring }}<br>
+    </p>
+    <select name="completedstring">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <p><input type="submit" value="Add task to list"></p>
+    <br>
+</form>
+
+<form action="" method="post" name="jobs">
+      {{ jobs.hidden_tag() }}
+    <p>List of Jobs to view:</p>
+    <select name="jobs">
+        <option value="10">Completed</option>
+        <option value="5">Not Completed</option>
+        <p><input type="submit" value="View"></p>
+    </select>
+{{ done.j }}
+{{ doing.b }}
+</form>
+
+<br><br>
+
+<form action="" method="post" name="remove">
+      {{ remove.hidden_tag() }}
+    <p>Removing a completed item</p>
+    <br>    {{remove.removestring }}<br>
+    <p><input type="submit" value="Mark a Task as completed"></p>
+
+</form>
+{% endblock %}
